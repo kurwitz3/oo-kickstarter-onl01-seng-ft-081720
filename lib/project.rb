@@ -9,7 +9,7 @@ def initialize(title)
 end 
 
 def add_backer(backer)
-  @backers << 
+  @backers <<  backer.back_project(self)
  
  end
 end 
